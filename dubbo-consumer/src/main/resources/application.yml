@@ -1,0 +1,11 @@
+server:
+  port: 9001
+
+
+spring:
+  dubbo:
+    application:
+      name: my-consumer
+      registry: zookeeper://127.0.0.1:2181
+    protocol:
+      port: 20881

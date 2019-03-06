@@ -1,0 +1,11 @@
+server:
+  port: 9000
+
+
+spring:
+  dubbo:
+    application:
+      name: my-provider
+      registry: zookeeper://127.0.0.1:2181
+    protocol:
+      port: 20880
